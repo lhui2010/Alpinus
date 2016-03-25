@@ -1,7 +1,4 @@
-#Alpinus
-
-A Genome Meta-assembly & Polish Pipeline
-------
+#Alpinus: A Genome Meta-assembly & Polish Pipeline
 
 
 How does Alpinus work
@@ -21,14 +18,14 @@ Using Alpinus
 4. Picard (copy jar file to 02.GATK_polish_bundle/bin)
 5. Samtools
 
-###Run
+###Usage
 1. Copy or link your contigs to 01.Minimus_merge_bundle/input
 2. Replace fastq1, fastq2 in 02.GATK_polish_bundle/shell/run.sh with fastq files for polishing
 2. Run Alpinus_run.sh
 3. Fetch results in 02.GATK_polish_bundle/output
 
 ###Cautious
-Alpha version of Alpinus was not tested :)
+Current version of Alpinus was not tested :)
 
 
 Change Log
